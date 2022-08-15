@@ -1,0 +1,243 @@
+body {
+    background-image: url(../Gateway-images/Gateway-BckGrnd.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1.6;
+    min-height: auto;
+    min-width: auto;
+  }
+
+  header .topnav{
+    font-size: 0.875rem; 
+    margin-top:-3px;
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+  }
+  
+  h2 {
+    font-size: 1.375rem;
+    padding-bottom: 50px;
+  }
+  header {
+    min-height: 150px;
+    z-index: 99;
+    position: absolute;
+    font-family: Arial;
+    font-size: 0.875rem;
+    margin-top:-10px;
+  }
+  
+  header a,
+  header a:link,
+  header a:visited {
+    color: #fff;
+  }
+  
+  header i {
+    color: #ff974f;
+    font-size: 1.125rem !important;
+    padding-right: 6px;
+    vertical-align: middle;
+  }
+  
+  .row{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+  }
+  header span {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  header .main-menu {
+    position: relative;
+    padding-top: 25px;
+    line-height: 1.8;
+  }
+  
+  header .logo {
+      float: left;
+      position: absolute;
+      text-align: left;
+      z-index: 9999;
+      margin-left: 80px;
+    width: 500px;
+  }
+  
+  nav {
+    position: relative;
+    float: right;
+    margin: 13px 0;
+    margin-left: 800px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .nav li {
+    margin: 0;
+    padding: 0 15px;
+      display: inline;
+  }
+  
+  .nav li a {
+    padding: 10px 0;
+    text-decoration: none;
+  }
+  
+  .nav li a :hover {
+    padding: 10px 0;
+    text-decoration: none;
+    color: #636363;
+  }
+  
+  .bton{ border: 2px solid #ff974f;
+    padding: 12px 22px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+.content-container{
+  background-color: white;
+  display: inline-block;
+  min-width: 1340px;
+}
+.content{
+  max-width: 650px;
+  font-family: Arial, Helvetica, sans-serif;
+	 color: #636363;
+   padding: 100px;
+   display: inline-block;
+   max-width: 650px;
+}
+
+.content-img{
+  display: inline-block;
+}
+
+.contact{ background-image: url(../Gateway-images/bg4.jpg);
+	background-size: cover;
+	min-width: 100%;
+	min-height: auto;
+	margin-top: -20px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.contact-container{
+	background-color: white;
+	max-width: 1150px;
+ margin-left: 115px;
+ margin-top: 25px;
+}
+
+.contact-writ{
+	padding: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+	 color: #636363;
+	 display: inline-block;
+	 max-width: 550px;
+}
+
+.contact-form{
+	float: right;
+	padding-top: 85px;
+	padding-right: 40px;
+}
+
+.con-socials{
+	float: right;
+}
+
+.contact-form .socials a{
+	color: black;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #dbd6d6;
+	 padding: 10px 15px;
+}
+
+.contact-form .socials a:hover{
+	color: #ff974f;
+}
+ 
+.con-frm{
+	/* padding-right: 20px; */
+	float: right;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.Name{
+	margin-top: 30px;
+	width: 500px;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: none;
+	margin-bottom: 10px;
+	border: 2px solid #e7e7e7;
+	font-size: 17px;
+	padding-left: 10px;
+	color: #e7e7e7;
+	margin-left: 30px;
+}
+
+input[type=email]{
+width: 500px;
+height: 40px;
+border-radius: 4px;
+box-shadow: none;
+margin-bottom: 10px;
+border: 2px solid #e7e7e7;
+font-size: 17px;
+padding-left: 10px;
+color: #ecebeb;
+margin-left: 30px;
+}
+
+.Message{
+   width: 500px;
+   border-radius: 4px;
+   height: 175px;
+   margin-bottom: 10px;
+   border: 2px solid #e7e7e7;
+   font-size: 17px;
+   padding-left: 10px;
+   color: #ecebeb;
+   margin-left: 30px;
+}
+
+.submit{
+margin-left: 355px;
+background-color: #ff974f;
+border: none;
+border-radius: 3px;
+width: 190px;
+height: 50px;
+color: white;
+font-size: 17px;
+font-weight: bold;
+}
+
+.footer{
+	width: 1205px;
+background-color: white;
+padding: 35px;
+color: #636363;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 100px;
+font-size: 15px;
+}
+
+.Message::placeholder
+{float: left;
+	padding-top: 20px;
+}
+
+	

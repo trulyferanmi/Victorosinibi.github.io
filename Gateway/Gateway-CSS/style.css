@@ -1,0 +1,315 @@
+body {
+  background-image: url(../Gateway-images/Gateway-BckGrnd.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: auto;
+  min-width: auto;
+}
+
+header .topnav{
+	font-size: 0.875rem; 
+	margin-top:-3px;
+}
+
+h1 {
+	font-size: 4.5rem;
+	font-weight: 700;
+	font-family: 'Lora', serif;
+}
+
+h2 {
+	font-size: 1.375rem;
+	padding-bottom: 50px;
+}
+header {
+	min-height: 150px;
+	z-index: 99;
+	position: absolute;
+	font-family: Arial;
+	font-size: 0.875rem;
+	margin-top:-10px;
+}
+
+header a,
+header a:link,
+header a:visited {
+	color: #fff;
+}
+
+header i {
+	color: #ff974f;
+	font-size: 1.125rem !important;
+	padding-right: 6px;
+	vertical-align: middle;
+}
+
+.row{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.875rem;
+}
+header span {
+	color: #fff;
+	font-weight: 600;
+}
+
+header .main-menu {
+	position: relative;
+	padding-top: 25px;
+	line-height: 1.8;
+}
+
+header .logo {
+    float: left;
+    position: absolute;
+    text-align: left;
+    z-index: 9999;
+    margin-left: 80px;
+	width: 500px;
+}
+
+nav {
+	position: relative;
+	float: right;
+	margin: 13px 0;
+	margin-left: 800px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.nav li {
+	margin: 0;
+	padding: 0 15px;
+    display: inline;
+}
+
+.nav li a {
+	padding: 10px 0;
+	text-decoration: none;
+}
+
+.nav li a :hover {
+	padding: 10px 0;
+	text-decoration: none;
+	color: #636363;
+}
+
+.btn{ background-color: #ff974f;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	padding: 16px 30px;
+	border: 0 none;
+	font-size: inherit;;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bton{ border: 2px solid #ff974f;
+	padding: 12px 22px;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.btn:hover{
+	background-color: #ff8137;
+	color: white;
+}
+
+.features{
+	background-color: white;
+
+}
+.twofeat{text-align: center;
+	margin-right: 20px;
+	border-top: 10px solid white;
+
+}
+
+.features .threefeat{
+display: inline-block;
+margin-bottom: 100px;
+
+}
+
+.features .twofeat .features-img{
+	display: inline;
+	width: 375px;
+	height: 275px;
+	padding: 5px;
+}
+
+h6{ font-size: 1rem;
+	color: #636363;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{font-size: 2rem;
+	font-weight: 700;
+}
+
+.features .threefeat .welcome{
+  margin-left: 100px;
+  max-width: 550px;
+  display: inline-block;
+}
+
+.buton a{
+	border: 2px solid #dbd6d6; 
+  padding: 12px 22px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  color: black;
+}
+
+ .buton a:hover{
+  color: black;
+  border: 2px solid rgb(238, 142, 64); 
+  padding: 12px 22px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.features .threefeat .aggressive{
+	font-family: Arial, Helvetica, sans-serif;
+	 color: #636363;
+	 max-width: 250px;
+	 display: inline-block;
+	 padding-left: 30px;
+	}
+
+.features .threefeat .contract{
+	font-family: Arial, Helvetica, sans-serif;
+	 color: #636363;
+	 max-width: 250px;
+	 display: inline-block;
+	 padding-left: 50px;
+}
+
+.contact{ background-image: url(../Gateway-images/bg4.jpg);
+	background-size: cover;
+	min-width: 100%;
+	min-height: auto;
+	margin-top: -20px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.contact-container{
+	background-color: white;
+	max-width: 1150px;
+ margin-left: 115px;
+ margin-top: 25px;
+}
+
+.contact-writ{
+	padding: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+	 color: #636363;
+	 display: inline-block;
+	 max-width: 550px;
+}
+
+.contact-form{
+	float: right;
+	padding-top: 85px;
+	padding-right: 40px;
+}
+
+.con-socials{
+	float: right;
+}
+
+.contact-form .socials a{
+	color: black;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #dbd6d6;
+	 padding: 10px 15px;
+}
+
+.contact-form .socials a:hover{
+	color: #ff974f;
+}
+ 
+.con-frm{
+	/* padding-right: 20px; */
+	float: right;
+	vertical-align: top;
+	margin-left: 50px;
+}
+.Name{
+	margin-top: 30px;
+	width: 500px;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: none;
+	margin-bottom: 10px;
+	border: 2px solid #e7e7e7;
+	font-size: 17px;
+	padding-left: 10px;
+	color: #e7e7e7;
+	margin-left: 30px;
+}
+
+input[type=email]{
+width: 500px;
+height: 40px;
+border-radius: 4px;
+box-shadow: none;
+margin-bottom: 10px;
+border: 2px solid #e7e7e7;
+font-size: 17px;
+padding-left: 10px;
+color: #ecebeb;
+margin-left: 30px;
+}
+
+.Message{
+   width: 500px;
+   border-radius: 4px;
+   height: 175px;
+   margin-bottom: 10px;
+   border: 2px solid #e7e7e7;
+   font-size: 17px;
+   padding-left: 10px;
+   color: #ecebeb;
+   margin-left: 30px;
+}
+
+.submit{
+margin-left: 355px;
+background-color: #ff974f;
+border: none;
+border-radius: 3px;
+width: 190px;
+height: 50px;
+color: white;
+font-size: 17px;
+font-weight: bold;
+}
+
+.footer{
+	width: 1205px;
+background-color: white;
+padding: 35px;
+color: #636363;
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 100px;
+font-size: 15px;
+}
+
+.Message::placeholder
+{float: left;
+	padding-top: 20px;
+}
+
+	
